@@ -1,0 +1,22 @@
+.details {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+}
+
+.details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #666;
+}

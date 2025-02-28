@@ -1,0 +1,35 @@
+.countdown {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.timeBox {
+    background: #ff6f61;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 80px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 1rem;
+    text-transform: uppercase;
+}

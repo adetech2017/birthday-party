@@ -1,22 +1,15 @@
-import React from 'react';
-import Header from './components/Header/Header';
-import Countdown from './components/Countdown/Countdown';
-import EventDetails from './components/EventDetails/EventDetails';
-import Footer from './components/Footer/Footer';
-import styles from './App.module.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import MoreInfo from "./components/MoreInfo";
+import "./App.css"; // Ensure your global styles are applied
 
-
-
-
-function App() {
+export default function App() {
   return (
-    <div className={styles.app}>
-      <Header />
-      <Countdown />
-      <EventDetails />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/more-info" element={<MoreInfo />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
